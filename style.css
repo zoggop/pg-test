@@ -1,50 +1,41 @@
 body {
-    font-size: 12px;
-    font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
-    color:#564b47;  
-    padding-left: 50px;
-    padding-right: 20%;
+    font-size: 15px;
+    font-family: "Lato", "Open Sans", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Tahoma", sans-serif;
+    color: #b99;
+    background-color: #080410;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-body>header h1>a {
-    color:#564b47;
+h1 {
+    font-family: "Berlin Email";
+}
+
+h1>a {
     text-decoration: none;
 }
 
-body>header h4 {
-    margin-top: -10px;
-}
-
-h1,h2,h3,h4 {
-    width: 100%;
-    min-width: 840px;
+h2,h3,h4 {
+    
 }
 
 hr {
     margin-left: 0;
     padding-left: 0;
-	width: 100%;
-	min-width: 840px;
+    width: 100%;
 }
 
 pre {
-    background-color: #E8E8E8;
+    background-color: #222;
     margin-left: 30px;
     padding: 5px;
     width: 80%;
 }
 
 code {
-    background-color: #E8E8E8;
+    background-color: #222;
     padding-left: 3px;
     padding-right: 3px;
-}
-
-pre {
-    background-color: #E8E8E8;
-    margin-left: 30px;
-    padding: 5px;
-    width: 80%;
 }
 
 table {
@@ -55,62 +46,41 @@ td {
     padding-left: 20px;
 }
 
+a {
+    color: #a98f00;
+}
+
 a:hover {
-    color: #696969;
+    color: #f0f;
 }
 
 main {
-
-	width: 75%;
-	min-width: 600px;
-	margin-left: 150px;
-	display: block;
+    max-width: 720px;
+    display: block;
 }
 
 nav {
-	float: left;
-	width: 150px;
-	min-width: 150px;
-}
-
-nav a,
-nav a:visited,
-nav a:active {
-    color: blue;
-}
-
-nav a:hover {
-    color: #696969;
+    display: block;
 }
 
 nav li {
-    margin-left: -25px;
+    display: inline;
+    margin-right: 12px;
     list-style: none;
 }
 
 footer {
-	clear: both;
-	width: 100%;
+    clear: both;
+    width: 100%;
 }
 
 article {
-	margin: 10px;
-}
-
-article h2>a,
-article h2>a:visited,
-article h2>a:active {
-    text-decoration: none;
-    color: blue;
-}
-
-article h2>a:hover {
-    color: #696969;
+    margin: 10px 0px;
 }
 
 article .entry {
-	margin-left: 15px;
-	padding: 10px;
+    margin-left: 15px;
+    padding: 10px;
 }
 
 article .entry img {
@@ -121,9 +91,9 @@ article .entry img {
 }
 
 article header span {
-	margin-top: -10px;
-	margin-bottom: -3px;
-	margin-left: 5px;
+    margin-top: -10px;
+    margin-bottom: -3px;
+    margin-left: 5px;
 }
 
 article header h2 {
