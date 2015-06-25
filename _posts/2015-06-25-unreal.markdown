@@ -1,6 +1,8 @@
 ---
 layout: post
 title: UnREAL
+author: me
+category: stuff
 
 excerpt: Cynicism about cynicism.
 
