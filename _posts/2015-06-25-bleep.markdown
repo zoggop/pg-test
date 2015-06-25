@@ -1,0 +1,9 @@
+---
+layout: post
+title: Bleep
+
+excerpt: I can't even.
+
+---
+
+![Sue's One Eye]({{ site.baseurl }}/resources/img/sue_one_eye.png)
