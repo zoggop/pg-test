@@ -7,7 +7,7 @@ body {
 .skin {
     padding-left:10%;
     padding-right:10%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 h1>a {
