@@ -5,6 +5,7 @@
         <meta charset="utf-8"/>
         <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
         <link id="pagestyle" rel="stylesheet" href="{{site.baseurl}}/style.css" />
+        <link id="colorstyle" rel="stylesheet" href="{{site.baseurl}}/colordark.css" />
         <meta name="description" content="{{site.description}}"/>
         <meta name="author" content="{{site.author}}"/>
         <link rel="author" href="humans.txt"/>
@@ -15,13 +16,13 @@
         <link rel="stylesheet" href="{{site.baseurl}}/resources/font-awesome/css/font-awesome.min.css">
         <!--[if IE 7]><link rel="stylesheet" href="{{site.baseurl}}/resources/fontello/css/fontello-ie7.css"><![endif]-->
         <script>
-            var lightSheet = "{{site.baseurl}}/stylelight.css";
-            var darkSheet = "{{site.baseurl}}/style.css";
+            var lightSheet = "{{site.baseurl}}/colorlight.css";
+            var darkSheet = "{{site.baseurl}}/colordark.css";
             var currentSheet = darkSheet;
-            function swapStyleSheet(){
+            function swapColorSheet(){
                 var nextSheet = lightSheet;
                 if (currentSheet == lightSheet) { nextSheet = darkSheet; }
-                document.getElementById('pagestyle').setAttribute('href', nextSheet);
+                document.getElementById('colorstyle').setAttribute('href', nextSheet);
                 currentSheet = nextSheet;
             }
         </script>
@@ -69,7 +70,7 @@
             <p>&copy; <time>2015</time> {{ site.author }}</p>
         </footer>
 
-        <a href="#" onclick="swapStyleSheet()" class="style-toggle"><i class="fa fa-tint"></i></a>
+        <a href="#nonexistant" onclick="swapColorSheet()" class="color-toggle"><i class="fa fa-tint"></i></a>
 
         <script src="{{site.baseurl}}/scripts.js"></script>
     </body>
