@@ -15,17 +15,7 @@
         <link rel="stylesheet" href="{{site.baseurl}}/resources/fontello/css/animation.css">
         <link rel="stylesheet" href="{{site.baseurl}}/resources/font-awesome/css/font-awesome.min.css">
         <!--[if IE 7]><link rel="stylesheet" href="{{site.baseurl}}/resources/fontello/css/fontello-ie7.css"><![endif]-->
-        <script>
-            var lightSheet = "{{site.baseurl}}/colorlight.css";
-            var darkSheet = "{{site.baseurl}}/colordark.css";
-            var currentSheet = darkSheet;
-            function swapColorSheet(){
-                var nextSheet = lightSheet;
-                if (currentSheet == lightSheet) { nextSheet = darkSheet; }
-                document.getElementById('colorstyle').setAttribute('href', nextSheet);
-                currentSheet = nextSheet;
-            }
-        </script>
+        <script src="{{site.baseurl}}/scripts.js"></script>
     </head>
 
     <body {% assign stylehtmlpre = ' ' %}
@@ -73,7 +63,6 @@
 
         <a href="#nonexistant" onclick="swapColorSheet()" class="color-toggle"><i class="fa fa-tint"></i></a>
 
-        <script src="{{site.baseurl}}/scripts.js"></script>
     </div>
     </body>
 
