@@ -63,7 +63,7 @@
 
         <footer>
             <hr />
-            <p>&copy; <time>2015</time> {{ site.author }}</p>
+            <p>&copy; <time>{{ site.time | date: '%y' }}</time> {{ site.author }}</p>
         </footer>
 
         <a href="#" onclick="swapColorSheet(); return false;" class="color-toggle"><i class="fa fa-tint"></i></a>
