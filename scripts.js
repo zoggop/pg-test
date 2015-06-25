@@ -16,8 +16,6 @@ function getCookie(cname) {
     return "";
 }
 
-var lightSheet = "{{site.baseurl}}/colorlight.css";
-var darkSheet = "{{site.baseurl}}/colordark.css";
 var currentSheet = darkSheet;
 
 function swapColorSheet(){
@@ -29,4 +27,8 @@ function swapColorSheet(){
 }
 
 var currentCookieSheet = getCookie("colorSheet");
-if (currentCookieSheet != "") { swapColorSheet(); }
+if (currentCookieSheet != "") {
+	if (currentCookieSheet == lightSheet) {
+		swapColorSheet();
+	}
+}
