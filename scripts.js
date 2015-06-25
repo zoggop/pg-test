@@ -21,8 +21,7 @@ function getCookie(cname) {
 var lightSheet = "{{site.baseurl}}/colorlight.css";
 var darkSheet = "{{site.baseurl}}/colordark.css";
 var currentSheet = darkSheet;
-var currentCookieSheet = getCookie("colorSheet");
-if (currentCookieSheet != "") { currentSheet = currentCookieSheet; }
+
 function swapColorSheet(){
     var nextSheet = lightSheet;
     if (currentSheet == lightSheet) { nextSheet = darkSheet; }
@@ -30,3 +29,6 @@ function swapColorSheet(){
     currentSheet = nextSheet;
     setCookie("colorSheet", currentSheet, 30);
 }
+
+var currentCookieSheet = getCookie("colorSheet");
+if (currentCookieSheet != "") { swapColorSheet(); }
