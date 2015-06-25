@@ -104,7 +104,7 @@ section address {
 
 .color-toggle {
     position: absolute;
-    right: 16px;
-    top: 16px;
+    right: 18px;
+    top: 10px;
     font-size:32px;
 }
