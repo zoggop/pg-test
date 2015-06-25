@@ -5,8 +5,6 @@ body {
 }
 
 .skin {
-    padding-left:10%;
-    padding-right:10%;
     min-height: 100vh;
 }
 
@@ -52,7 +50,6 @@ td {
 }
 
 main {
-    max-width: 720px;
     display: block;
 }
 
