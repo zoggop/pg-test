@@ -16,19 +16,22 @@
         <!--[if IE 7]><link rel="stylesheet" href="{{site.baseurl}}/resources/fontello/css/fontello-ie7.css"><![endif]-->
     </head>
 
-    <body {% assign stylehtml = ' ' %}
+    <body {% assign stylehtmlpre = ' ' %}
+    {% assign imageurl = ' ' %}
+    {% assign stylehtmlpost = ' ' %}
     {% for post in site.posts %}
       {% assign images = post.content | split:"<img " %}
       {% for image in images %}
         {% if image contains 'src' %}
             {% assign html = image | split:"/>" | first %}
             {% assign imageurl = html | split:"src=" | last %}
-            {% assign stylehtml = 'style="background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)) repeat scroll 0% 0%, transparent url({{ imagesrc }}) no-repeat fixed right top / cover;"' %}
+            {% assign stylehtmlpre = 'style="background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)) repeat scroll 0% 0%, transparent url(' %}
+            {% assign stylehtmlpost = ') no-repeat fixed right top / cover;"' %}
             {% break %}
         {% endif %}
       {% endfor %}
   {% endfor %}
-  {{ stylehtml }} >
+  {{ stylehtmlpre }}{{ imageurl }}{{ stylehtmlpost }} >
         <header>
             <h1><a href="{{site.baseurl}}/">{{ site.name }}</a></h1>
                 <h4>{{ site.description }}</h4>
