@@ -28,7 +28,7 @@
         </script>
     </head>
 
-    <body {% assign stylehtmlpre = ' ' %}
+    <body> {% assign stylehtmlpre = ' ' %}
     {% assign imageurl = ' ' %}
     {% assign stylehtmlpost = ' ' %}
     {% for post in site.posts %}
@@ -38,13 +38,14 @@
             {% assign html = image | split:"/>" | first %}
             {% assign imageurl = html | split:'src="' | last %}
             {% assign imageurl = imageurl | split:'"' | first %}
-            {% assign stylehtmlpre = 'style="background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)) repeat scroll 0% 0%, transparent url(' %}
+            {% assign stylehtmlpre = 'style="background: url(' %}
             {% assign stylehtmlpost = ') no-repeat fixed right top / cover;"' %}
             {% break %}
         {% endif %}
       {% endfor %}
   {% endfor %}
   {{ stylehtmlpre }}{{ imageurl }}{{ stylehtmlpost }} >
+    <div class="skin">
         <header>
             <h1><a href="{{site.baseurl}}/">{{ site.name }}</a></h1>
                 <h4>{{ site.description }}</h4>
@@ -73,6 +74,7 @@
         <a href="#nonexistant" onclick="swapColorSheet()" class="color-toggle"><i class="fa fa-tint"></i></a>
 
         <script src="{{site.baseurl}}/scripts.js"></script>
+    </div>
     </body>
 
 </html>
