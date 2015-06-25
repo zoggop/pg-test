@@ -24,7 +24,8 @@
       {% for image in images %}
         {% if image contains 'src' %}
             {% assign html = image | split:"/>" | first %}
-            {% assign imageurl = html | split:"src=" | last %}
+            {% assign imageurl = html | split:'src="' | last %}
+            {% assign imageurl = imageurl | split:'"' | first %}
             {% assign stylehtmlpre = 'style="background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)) repeat scroll 0% 0%, transparent url(' %}
             {% assign stylehtmlpost = ') no-repeat fixed right top / cover;"' %}
             {% break %}

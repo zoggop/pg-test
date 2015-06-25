@@ -27,6 +27,6 @@ These should work in all the browsers, all the way down to and including IE7, bu
 [ty]: http://typicons.com/
 [fo]: http://fontello.com/
 
-[icons]: /resources/img/icons.png "Available Icons"
+[icons]: {{ site.url }}/resources/img/icons.png "Available Icons"
 
 
