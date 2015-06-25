@@ -79,8 +79,7 @@ article {
 }
 
 article .entry {
-    margin-left: 15px;
-    padding: 10px;
+    padding: 10px 0px;
 }
 
 article .entry img {
@@ -88,12 +87,6 @@ article .entry img {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-}
-
-article header span {
-    margin-top: -10px;
-    margin-bottom: -3px;
-    margin-left: 5px;
 }
 
 article header h2 {
