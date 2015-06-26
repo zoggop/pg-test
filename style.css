@@ -77,9 +77,8 @@ article .entry {
 
 article .entry img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+    margin: 15px auto;
+    max-width: 100%;
 }
 
 article header h2 {
