@@ -96,6 +96,10 @@ section address {
     margin-left: 16px;
 }
 
+time {
+    font-style: italic;
+}
+
 #paginator {
     padding: 10px;
 }

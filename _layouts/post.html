@@ -5,7 +5,7 @@ layout: default
 <article>
         <header>
             <h2>{{ page.title }}</h2>
-            <span><i class="icon-clock"></i><time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time></span><br/>
+            <span class="date"><time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time></span><br/>
         </header>
         <div class="entry">{{ content }}</div>
 
