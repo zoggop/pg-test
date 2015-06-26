@@ -55,6 +55,7 @@ main {
 
 nav {
     display: block;
+    font-size:24px;
 }
 
 nav ul {
@@ -110,6 +111,6 @@ section address {
 .color-toggle {
     position: absolute;
     right: 18px;
-    top: 10px;
-    font-size:32px;
+    top: 12px;
+    font-size: 24px;
 }
