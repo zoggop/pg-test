@@ -19,6 +19,12 @@
       "src": "entypo"
     },
     {
+      "uid": "4568bba1dba45522fc539c733c9b35e5",
+      "css": "twitter",
+      "code": 59394,
+      "src": "typicons"
+    },
+    {
       "uid": "ae3so8q0b0n2h8esv9flua2nmwswa8fd",
       "css": "mail",
       "code": 59392,
@@ -35,12 +41,6 @@
       "css": "color-adjust",
       "code": 59399,
       "src": "mfglabs"
-    },
-    {
-      "uid": "b1ec8e90c2c85cf0035849980a3789b3",
-      "css": "twitter",
-      "code": 59395,
-      "src": "zocial"
     }
   ]
 }
