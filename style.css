@@ -16,13 +16,12 @@ body {
     position:relative;
 }
 
-h1>a {
+h1>a,h2>a {
     text-decoration: none;
 }
 
 h1,h2,h3,h4,time {
    font-family: "Lora";
-   font-weight: 400;
 }
 
 hr {
