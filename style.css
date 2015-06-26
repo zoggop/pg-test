@@ -58,14 +58,8 @@ nav {
     font-size:24px;
 }
 
-nav ul {
-    padding-left: 16px;
-}
-
-nav li {
-    display: inline;
+nav a {
     margin-right: 12px;
-    list-style: none;
 }
 
 footer {

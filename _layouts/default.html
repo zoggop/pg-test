@@ -36,6 +36,9 @@
             {% break %}
         {% endif %}
       {% endfor %}
+      {% if imageurl != ' ' %}
+        {% break %}
+      {% endif %}
   {% endfor %}
   {{ stylehtmlpre }}{{ imageurl }}{{ stylehtmlpost }} >
     <div class="skin">
@@ -46,13 +49,11 @@
         </header>
 
         <nav>
-            <ul>
-                <li><a href="{{site.baseurl}}/" title="Home"><i class="icon-home"></i></a></li>
-                <li><a href="{{site.baseurl}}/archive" title="Archive"><i class="icon-archive"></i></a></li>
-                <li><a href="{{site.baseurl}}/" title="RSS Feed"><i class="icon-rss"></i></a></li>
-                <li><a href="http://twitter.com/{{site.author_twitter}}" title="meanyhead on Twitter"><i class="icon-twitter"></i></a></li>
-                <li><a href="mailto:{{site.author_email}}" title="{{site.author_email}}"><i class="icon-mail"></i></a></li>
-            </ul>
+                <a href="{{site.baseurl}}/" title="Home"><i class="icon-home"></i></a>
+                <a href="{{site.baseurl}}/archive" title="Archive"><i class="icon-archive"></i></a>
+                <a href="{{site.baseurl}}/" title="RSS Feed"><i class="icon-rss"></i></a>
+                <a href="http://twitter.com/{{site.author_twitter}}" title="meanyhead on Twitter"><i class="icon-twitter"></i></a>
+                <a href="mailto:{{site.author_email}}" title="{{site.author_email}}"><i class="icon-mail"></i></a>
         </nav>
 
         <main>
