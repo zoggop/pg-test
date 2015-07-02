@@ -1,7 +1,7 @@
 body {
     font-size: 16px;
-    font-family: "Lato", "Open Sans", "Verdana", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Tahoma", sans-serif;
-    line-height: 1.45em;
+    font-family: "Source Sans Pro", "Open Sans", "Verdana", "Segoe UI", "Helvetica Neue", "Tahoma", "Lucida Grande", sans-serif;
+    line-height: 1.5em;
     margin: 0px;
 }
 
@@ -22,7 +22,8 @@ h1>a,h2>a {
 }
 
 h1,h2,h3,h4,time {
-   font-family: "Lora", "Georgia", "Times New Roman", serif;
+   font-family: "Alegreya", "Lora", "Georgia", "Times New Roman", serif;
+   font-style: italic;
 }
 
 hr {
