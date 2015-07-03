@@ -34,8 +34,14 @@ time {
 }
 
 hr {
-    height: 1px;
-    border: 0px;
+    text-align: center;
+    border: 0;
+    color:inherit;
+}
+
+hr::after {
+    font-family: tv1;
+    content: "\E806";
 }
 
 pre {
