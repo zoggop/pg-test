@@ -93,7 +93,8 @@ article header h2 {
 }
 
 .more {
-    margin-left: 80%;
+    display: block;
+    text-align: right;
 }
 
 .color-toggle {
