@@ -18,3 +18,7 @@ a {
 a:hover {
     color: #0ff;
 }
+
+footer hr {
+	background-color: #caa;
+}

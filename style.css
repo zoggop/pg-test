@@ -41,6 +41,7 @@ hr {
 
 hr::after {
     font-family: tv1;
+    font-size: 24px;
     content: "\E806";
 }
 
@@ -78,6 +79,14 @@ nav a {
 
 footer {
     font-size: 14px;
+}
+
+footer hr {
+    height: 1px;
+}
+
+footer hr::after {
+    content: none;
 }
 
 article {
