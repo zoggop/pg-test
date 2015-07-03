@@ -29,10 +29,13 @@ h1,h2,h3,h4,time {
    font-family: "Alegreya", "Georgia", "Times New Roman", serif;
 }
 
+time {
+    font-style: italic;
+}
+
 hr {
-    margin-left: 0;
-    padding-left: 0;
-    width: 100%;
+    height: 1px;
+    border: 0px;
 }
 
 pre {
@@ -68,8 +71,7 @@ nav a {
 }
 
 footer {
-    clear: both;
-    width: 100%;
+    font-size: 14px;
 }
 
 article {
@@ -90,22 +92,6 @@ article header h2 {
     margin-bottom: 3px;
 }
 
-section address {
-    margin-left: 16px;
-}
-
-time {
-    font-style: italic;
-}
-
-#paginator {
-    padding: 10px;
-}
-
-#paginator a {
-    text-decoration: none;
-}
-
 .more {
     margin-left: 80%;
 }
@@ -113,4 +99,8 @@ time {
 .color-toggle {
     position: absolute;
     right: 8px;
+}
+
+.xmirror {
+    transform: scale(-1, 1);
 }
