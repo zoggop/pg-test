@@ -20,19 +20,19 @@ layout: default
 <div id="paginator">
     {% if paginator.next_page %}
             <a href="{{site.baseurl}}/page{{paginator.next_page}}">
-            <i class="icon-back-in-time xmirror"></i></a>
+            <i class="icon-back-in-time"></i></a>
     {% endif %}
 
     {% if paginator.previous_page %}
         {% if paginator.previous_page == 1 %}
                 <span class="more">
                 <a href="{{site.baseurl}}/">
-                <i class="icon-back-in-time"></i></a>
+                <i class="icon-back-in-time xmirror"></i></a>
                 </span>
         {% else %}
                 <span class="more">
                 <a href="{{site.baseurl}}/page{{paginator.previous_page}}">
-                <i class="icon-back-in-time"></i></a>
+                <i class="icon-back-in-time xmirror"></i></a>
                 </span>
         {% endif %}
     {% endif %}

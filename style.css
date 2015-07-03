@@ -106,6 +106,6 @@ article header h2 {
     font-size: 24px;
 }
 
-.xmirror {
+.xmirror::before {
     transform: scale(-1, 1);
 }
