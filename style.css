@@ -101,6 +101,10 @@ article header h2 {
     right: 8px;
 }
 
+.paginator {
+    font-size: 24px;
+}
+
 .xmirror {
     transform: scale(-1, 1);
 }

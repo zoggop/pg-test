@@ -26,13 +26,13 @@ layout: default
     {% if paginator.previous_page %}
         {% if paginator.previous_page == 1 %}
                 <span class="more">
-                <a href="{{site.baseurl}}/">
-                Newer Posts &raquo; </a>
+                <a href="{{site.baseurl}}/page{{paginator.previous_page}}">
+                <i class="icon-back-in-time xmirror"></a>
                 </span>
         {% else %}
                 <span class="more">
                 <a href="{{site.baseurl}}/page{{paginator.previous_page}}">
-                <i class="icon-back-in-time"></a>
+                <i class="icon-back-in-time xmirror"></a>
                 </span>
         {% endif %}
     {% endif %}
