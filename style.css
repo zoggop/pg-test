@@ -79,6 +79,7 @@ nav a {
 
 footer {
     font-size: 14px;
+    margin-top: 32px;
 }
 
 footer hr {
@@ -123,4 +124,16 @@ article header h2 {
 
 .xmirror::before {
     transform: scale(-1, 1);
+}
+
+#commentloader {
+    font-size: 18px;
+    font-style: italic;
+}
+
+#commentloader a {
+    padding: 4px;
+    text-decoration: none;
+    display: block;
+    border: 1px dashed;
 }
