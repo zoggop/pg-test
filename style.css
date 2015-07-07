@@ -127,7 +127,7 @@ article header h2 {
 }
 
 #commentloader {
-    font-size: 18px;
+    font-size: 24px;
     font-style: italic;
 }
 
@@ -136,4 +136,9 @@ article header h2 {
     text-decoration: none;
     display: block;
     border: 1px dashed;
+}
+
+#commentloader a::after {
+    font-family: "tv1";
+    content: "\E808"
 }
