@@ -79,7 +79,7 @@ nav a {
 
 footer {
     font-size: 14px;
-    margin-top: 32px;
+    margin-top: 50px;
 }
 
 footer hr {
@@ -91,7 +91,7 @@ footer hr::after {
 }
 
 article {
-    margin: 10px 0px;
+    margin: 10px 0px 50px 0px;
 }
 
 article .entry {
