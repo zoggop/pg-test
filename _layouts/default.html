@@ -90,6 +90,15 @@
             s.src = '//' + disqus_shortname + '.disqus.com/count.js';
             (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
         }());
+
+        // load the comments if we came here from a comment link
+        if(window.location.hash) {
+            var hash = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
+            if(hash == "disqus_thread") {
+                disqus();
+            }            
+        } else {
+        }
     </script>
     </body>
 
