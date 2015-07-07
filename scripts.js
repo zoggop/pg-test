@@ -45,7 +45,7 @@ function disqus() {
     
     // This is to ensure that Disqus widget is loaded only once
     disqus_loaded = true;
-    
+    document.getElementById("commentloader").style.visibility = "hidden";
     var e = document.createElement("script");
     e.type = "text/javascript";
     e.async = true;
