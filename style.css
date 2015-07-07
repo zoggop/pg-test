@@ -126,19 +126,19 @@ article header h2 {
     transform: scale(-1, 1);
 }
 
-#commentloader {
+.commentcount {
     font-size: 24px;
     font-style: italic;
+    text-decoration: none;
+}
+
+.commentcount::after {
+    font-family: "tv1";
+    content: "\E808"
 }
 
 #commentloader a {
     padding: 4px;
-    text-decoration: none;
     display: block;
     border: 1px dashed;
-}
-
-#commentloader a::after {
-    font-family: "tv1";
-    content: "\E808"
 }
