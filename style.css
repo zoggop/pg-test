@@ -1,22 +1,25 @@
 @media screen and (max-width: 479px) {
-    h1 a { 
+    h1 a::after { 
         font-family: "tv1";
         font-weight: normal;
         content: "\E809";
+        font-size: 28px;
     }
 }
 
 @media screen and (min-width: 480px) and (max-width: 751px) {
-    h1 a { 
+    h1 a::after { 
         font-family: "tv1";
         font-weight: normal;
         content: "\E80A";
+        font-size: 46px;
     }
 }
 
 
 @media screen and (min-width: 752px) {
-    h1 { 
+    h1 a::after {
+       content: "The Blue Screen of Death";
        font-size: 78px;
        font-weight: 400;
        font-style: italic;
