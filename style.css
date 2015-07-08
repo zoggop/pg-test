@@ -1,3 +1,28 @@
+@media screen and (max-width: 479px) {
+    h1 a { 
+        font-family: "tv1";
+        font-weight: normal;
+        content: "\E809";
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 751px) {
+    h1 a { 
+        font-family: "tv1";
+        font-weight: normal;
+        content: "\E80A";
+    }
+}
+
+
+@media screen and (min-width: 752px) {
+    h1 { 
+       font-size: 78px;
+       font-weight: 400;
+       font-style: italic;
+    }
+}
+
 body {
     font-size: 16px;
     font-family: "Source Sans Pro", "Open Sans", "Verdana", "Segoe UI", "Helvetica Neue", "Tahoma", "Lucida Grande", sans-serif;
@@ -19,10 +44,6 @@ body {
 
 h1>a,h2>a {
     text-decoration: none;
-}
-
-h1 {
-    font-variant: small-caps;
 }
 
 h1,h2,h3,h4,time {

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'tv1';
-  src: url('../font/tv1.eot?81221343');
-  src: url('../font/tv1.eot?81221343#iefix') format('embedded-opentype'),
-       url('../font/tv1.woff?81221343') format('woff'),
-       url('../font/tv1.ttf?81221343') format('truetype'),
-       url('../font/tv1.svg?81221343#tv1') format('svg');
+  src: url('../font/tv1.eot?38766140');
+  src: url('../font/tv1.eot?38766140#iefix') format('embedded-opentype'),
+       url('../font/tv1.woff?38766140') format('woff'),
+       url('../font/tv1.ttf?38766140') format('truetype'),
+       url('../font/tv1.svg?38766140#tv1') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'tv1';
-    src: url('../font/tv1.svg?81221343#tv1') format('svg');
+    src: url('../font/tv1.svg?38766140#tv1') format('svg');
   }
 }
 */
@@ -63,3 +63,5 @@
 .icon-dot:before { content: '\e806'; } /* '' */
 .icon-color-adjust:before { content: '\e807'; } /* '' */
 .icon-comment-alt:before { content: '\e808'; } /* '' */
+.icon-tbsod-320:before { content: '\e809'; } /* '' */
+.icon-tbsod-480:before { content: '\e80a'; } /* '' */
