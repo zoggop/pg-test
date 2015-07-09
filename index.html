@@ -18,7 +18,7 @@ layout: default
         </div>
 	</article>
     {% assign pnum = pnum + 1 %}
-    {% if pnum != site.paginate %}
+    {% if pnum < 3 %}
         <hr/>
     {% endif %}
 {% endfor %}
