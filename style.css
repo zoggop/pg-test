@@ -27,10 +27,14 @@
 }
 
 body {
-    font-size: 16px;
-    font-family: "Source Sans Pro", "Open Sans", "Verdana", "Segoe UI", "Helvetica Neue", "Tahoma", "Lucida Grande", sans-serif;
-    line-height: 1.5em;
+    font-size: 17px;
+    font-family: "Alegreya Sans", "Source Sans Pro", "Open Sans", "Verdana", "Segoe UI", "Helvetica Neue", "Tahoma", "Lucida Grande", sans-serif;
+    line-height: 1.4118em;
     margin: 0px;
+}
+
+p {
+    margin: 0 0 1em 0;
 }
 
 .skin {
@@ -63,10 +67,18 @@ hr {
     color:inherit;
 }
 
-hr::after {
+article hr::after {
     font-family: tv1;
     font-size: 24px;
     content: "\E806";
+    letter-spacing: 0.25em;
+}
+
+hr::after {
+    font-family: tv1;
+    font-size: 24px;
+    content: "\E806\E806";
+    letter-spacing: 0.25em;
 }
 
 pre {
@@ -115,21 +127,21 @@ footer hr::after {
 }
 
 article {
-    margin: 10px 0px 50px 0px;
-}
-
-article .entry {
-    padding: 10px 0px;
+    margin: 3em 0;
 }
 
 article .entry img {
     display: block;
-    margin: 15px auto;
+    margin: 1em auto;
     max-width: 100%;
 }
 
 article header h2 {
-    margin-bottom: 3px;
+    margin: 0;
+}
+
+article header {
+    margin-bottom: 1em;
 }
 
 .more {
