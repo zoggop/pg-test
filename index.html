@@ -3,7 +3,6 @@ layout: default
 ---
 
 <!-- Show last 5 posts here -->
-{% assign pnum = 0 %}
 {% for post in paginator.posts %}
 	<article>
 
@@ -17,8 +16,7 @@ layout: default
             <p><a href="{{site.baseurl}}{{post.url}}#disqus_thread" class="commentcount"> </a></p>
         </div>
 	</article>
-    {% assign pnum = pnum + 1 %}
-    {% if pnum < 3 %}
+    {% if post != paginator.posts.last %}
         <hr/>
     {% endif %}
 {% endfor %}
