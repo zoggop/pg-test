@@ -1,3 +1,44 @@
+body {
+    font-size: 17px;
+    font-family: "Alegreya Sans", "Source Sans Pro", "Open Sans", "Verdana", "Segoe UI", "Helvetica Neue", "Tahoma", "Lucida Grande", sans-serif;
+    line-height: 1.4118em;
+    margin: 0px;
+}
+
+p {
+    margin: 0 0 1em 0;
+}
+
+.skin {
+    min-height: 100vh;
+}
+
+.torso {
+    max-width: 744px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:4px;
+    position:relative;
+}
+
+main {
+    display: block;
+    padding: 12px;
+    margin-top: 3em;
+}
+
+h1>a,h2>a {
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,time {
+   font-family: "Alegreya", "Georgia", "Times New Roman", serif;
+}
+
+time {
+    font-style: italic;
+}
+
 @media screen and (max-width: 479px) {
     h1 a::after { 
         font-family: "tv1";
@@ -24,41 +65,6 @@
        font-weight: 400;
        font-style: italic;
     }
-}
-
-body {
-    font-size: 17px;
-    font-family: "Alegreya Sans", "Source Sans Pro", "Open Sans", "Verdana", "Segoe UI", "Helvetica Neue", "Tahoma", "Lucida Grande", sans-serif;
-    line-height: 1.4118em;
-    margin: 0px;
-}
-
-p {
-    margin: 0 0 1em 0;
-}
-
-.skin {
-    min-height: 100vh;
-}
-
-.torso {
-    max-width: 720px;
-    margin-left: auto;
-    margin-right: auto;
-    padding:16px;
-    position:relative;
-}
-
-h1>a,h2>a {
-    text-decoration: none;
-}
-
-h1,h2,h3,h4,time {
-   font-family: "Alegreya", "Georgia", "Times New Roman", serif;
-}
-
-time {
-    font-style: italic;
 }
 
 hr {
@@ -100,13 +106,14 @@ td {
     padding-left: 20px;
 }
 
-main {
-    display: block;
+.torso>header {
+    padding: 12px 12px 0 12px;
 }
 
 nav {
     display: block;
     font-size:24px;
+    padding: 0 12px;
 }
 
 nav a {
@@ -124,6 +131,10 @@ footer hr {
 
 footer hr::after {
     content: none;
+}
+
+article:first-of-type {
+    margin: 0 0 3em 0;
 }
 
 article {

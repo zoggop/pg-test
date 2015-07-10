@@ -4,7 +4,11 @@ body {
 }
 
 .skin {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.75);
+}
+
+main {
+	background-color: rgb(12,12,24);
 }
 
 pre,code {

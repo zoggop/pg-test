@@ -52,54 +52,71 @@
   {% endfor %}
 
     <body {{ stylehtmlpre }}{{ imageurl }}{{ stylehtmlpost }} >
-    <div class="skin">
-    <div class="torso">
-        <header>
-            <h1><a href="{{site.baseurl}}/"></a></h1>
-                <!-- <h4>{{ site.description }}</h4> -->
-        </header>
+        <div class="skin">
+        <div class="torso">
+            <header>
+                <h1><a href="{{site.baseurl}}/"></a></h1>
+                    <!-- <h4>{{ site.description }}</h4> -->
+            </header>
 
-        <nav>
-                <a href="{{site.baseurl}}/" title="Home"><i class="icon-home"></i></a>
-                <a href="{{site.baseurl}}/archive" title="Archive"><i class="icon-archive"></i></a>
-                <a href="{{site.baseurl}}/feed.xml" title="RSS Feed"><i class="icon-rss"></i></a>
-                <a href="http://twitter.com/{{site.author_twitter}}" title="meanyhead on Twitter"><i class="icon-twitter"></i></a>
-                <a href="#" onclick="swapColorSheet(); return false;" class="color-toggle" title="Day / Night"><i class="icon-color-adjust"></i></a>
-        </nav>
+            <nav>
+                    <a href="{{site.baseurl}}/" title="Home"><i class="icon-home"></i></a>
+                    <a href="{{site.baseurl}}/archive" title="Archive"><i class="icon-archive"></i></a>
+                    <a href="{{site.baseurl}}/feed.xml" title="RSS Feed"><i class="icon-rss"></i></a>
+                    <a href="http://twitter.com/{{site.author_twitter}}" title="meanyhead on Twitter"><i class="icon-twitter"></i></a>
+                    <a href="#" onclick="swapColorSheet(); return false;" class="color-toggle" title="Day / Night"><i class="icon-color-adjust"></i></a>
+            </nav>
 
-        <main>
+            <main>
 
-            {{ content }}
+                {{ content }}
 
-        </main>
+            </main>
 
-        <footer>
-            <p>&copy; <time>{{ site.time | date: '%Y' }}</time> {{ site.author }}</p>
-        </footer>
+            <footer>
+                <p>&copy; <time>{{ site.time | date: '%Y' }}</time> {{ site.author }}</p>
+            </footer>
 
-    </div>
-    </div>
-    <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES * * */
-        var disqus_shortname = 'thebluescreenofdeath';
-        
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function () {
-            var s = document.createElement('script'); s.async = true;
-            s.type = 'text/javascript';
-            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-        }());
+        </div>
+        </div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES * * */
+            var disqus_shortname = 'thebluescreenofdeath';
+            
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function () {
+                var s = document.createElement('script'); s.async = true;
+                s.type = 'text/javascript';
+                s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+                (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+            }());
 
-        // load the comments if we came here from a comment link
-        if(window.location.hash) {
-            var hash = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
-            if(hash == "disqus_thread") {
-                disqus();
-            }            
-        } else {
-        }
-    </script>
+            // load the comments if we came here from a comment link
+            if(window.location.hash) {
+                var hash = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
+                if(hash == "disqus_thread") {
+                    disqus();
+                }            
+            } else {
+            }
+        </script>
+        <!-- Start of StatCounter Code for Default Guide -->
+        <script type="text/javascript">
+            var sc_project=10523770; 
+            var sc_invisible=1; 
+            var sc_security="59debfe4"; 
+            var scJsHost = (("https:" == document.location.protocol) ?
+            "https://secure." : "http://www.");
+            document.write("<sc"+"ript type='text/javascript' src='" +
+            scJsHost+
+            "statcounter.com/counter/counter.js'></"+"script>");
+        </script>
+        <noscript><div class="statcounter"><a title="shopify stats"
+        href="http://statcounter.com/shopify/" target="_blank"><img
+        class="statcounter"
+        src="http://c.statcounter.com/10523770/0/59debfe4/1/"
+        alt="shopify stats"></a></div></noscript>
+        <!-- End of StatCounter Code for Default Guide -->
     </body>
 
 </html>
