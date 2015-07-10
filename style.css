@@ -1,6 +1,7 @@
 body {
     font-size: 17px;
-    font-family: "Alegreya Sans", "Source Sans Pro", "Open Sans", "Verdana", "Segoe UI", "Helvetica Neue", "Tahoma", "Lucida Grande", sans-serif;
+    /*font-family: "Source Sans Pro", "Open Sans", "Verdana", "Segoe UI", "Helvetica Neue", "Tahoma", "Lucida Grande", sans-serif;*/
+    font-family: "Alegreya Sans", sans-serif;
     line-height: 1.4118em;
     margin: 0px;
 }
