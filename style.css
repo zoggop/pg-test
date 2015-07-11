@@ -194,3 +194,8 @@ article header {
     display: block;
     border: 1px dashed;
 }
+
+.archive-link {
+    display: inline-block;
+    width: 218px;
+}

@@ -1,6 +1,6 @@
 body {
     color: #522;
-    background-color: #888490;
+    background-color: rgb(222,222,222);
 }
 
 .skin {
@@ -8,7 +8,7 @@ body {
 }
 
 main {
-	background-color: rgb(231,231,243);
+	background-color: rgb(222,222,243);
 }
 
 pre,code {
@@ -25,4 +25,8 @@ a:hover {
 
 footer hr {
 	background-color: #522;
+}
+
+.archive-link {
+	background-color: rgb(222,243,243);
 }
