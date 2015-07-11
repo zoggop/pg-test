@@ -27,6 +27,6 @@ footer hr {
 	background-color: #caa;
 }
 
-.archive-link {
+.archive-link, .archive-link h3, .archive-link time {
 	background-color: rgb(12,24,24);
 }

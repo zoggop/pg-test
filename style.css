@@ -197,5 +197,18 @@ article header {
 
 .archive-link {
     display: inline-block;
-    width: 218px;
+    width: 206px;
+    margin: 8px;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.archive-link h3 {
+    margin: 1em 0;
+}
+
+.archive-link time {
+    display: block;
+    margin: 1em 0;
 }

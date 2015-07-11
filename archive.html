@@ -15,7 +15,7 @@ title: Archive
                     {% assign imageurl = html | split:'src="' | last %}
                     {% assign imageurl = imageurl | split:'"' | first %}
                     {% assign stylehtmlpre = 'style="background: url(' %}
-                    {% assign stylehtmlpost = ') no-repeat / cover;"' %}
+                    {% assign stylehtmlpost = ') no-repeat scroll center center / cover;"' %}
                     {% break %}
                 {% endif %}
             {% endfor %}
