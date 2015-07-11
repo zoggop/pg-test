@@ -21,6 +21,7 @@ title: Archive
             {% endfor %}
             <a href="{{site.baseurl}}{{ post.url }}" class="archive-link" {{ stylehtmlpre }}{{ imageurl }}{{ stylehtmlpost }}>
                 <h3>{{ post.title }}</h3>
+                <br /> <br /> <br /> <br />
                 <time datetime="{{post.date|date:"%F"}}">{{post.date|date:"%-d %B %Y"}}</time>
             </a>
     	{% endfor %}
