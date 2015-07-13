@@ -3,7 +3,7 @@ layout: post
 title: Correct Parents
 ---
 
-Psychologist parents are in fiction impotent parents. That they have such extensive professional knowledge over human nature leaves them uniquely blind to their children, or their normal parently blindness becomes uniquely ironic. Their often outlandish misunderstandings of their children are aggressive, even murderous, Oedipus in reverse. Amy's parents in *Gone Girl* are vampires, making a living off of who they somehow both believe and wish their daughter to be--*Amazing Amy*.
+Psychologist parents are in fiction impotent parents. That they have such extensive professional knowledge over human nature leaves them uniquely blind to their children, or their normal parently blindness becomes uniquely ironic. Their often outlandish misunderstandings of their children are aggressive, even murderous, Oedipus in reverse. Amy's parents in *Gone Girl* are vampires, making a living off of who they somehow both believe and wish their daughter to be--"Amazing Amy".
 
 Rachel's mother is a different kind of monster, one who believes (or wishes?) her daughter suffers from a nebulous mental illness, one that only she can diagnose and treat. Does a child under such egregious misrecognition judge herself by the nearly non-sequitor criteria of her mother? What kind of monster writes such an easily written off figure?
 
